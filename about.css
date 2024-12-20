@@ -1,0 +1,724 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.first_header {
+    height: 6vh;
+    width: 100vw;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60vw;
+    font-size: 1vw;
+}
+.menu{
+    display: none;
+}
+
+.info {
+    display: flex;
+    gap: 1vw;
+}
+
+.icons {
+    display: flex;
+    gap: 1vw;
+    font-size: 1vw;
+}
+
+.second_header {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.zay {
+    font-size: 2vw;
+    color: #59ab6e !important;
+}
+
+.pages ul {
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+    list-style: none;
+    font-size: 1.5vw;
+
+
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color: green;
+}
+
+.second_icons {
+    display: flex;
+    gap: 1.30vw;
+    font-size: 1.5vw;
+}
+.third_section {
+    height: 80vh;
+    width: 100vw;
+    background-color:#59ab6e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.img_info {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+   
+}
+
+.p_heading {
+    font-size: 2.70vw;
+    
+
+}
+.p_last{
+    font-size: 1.30vw;
+}
+.service_section{
+    width: 100vw;
+    height: 86vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+.service h1{
+    font-size: 2.50vw;
+}
+.service p{
+    font-size: 1.30vw;
+    text-align: center;
+}
+.service_icon{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+.box_icon{
+    height: 29vh;
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    box-shadow: 5px 5px 15px #4f555c;
+}
+.box_icon i{
+    font-size: 3vw;
+    color: #59ab6e;
+}
+.box_icon p{
+    font-size: 1vw;
+}
+    
+.box_icon:hover .icon_box{
+    color: white;
+    /* background-color: #59ab6e; */
+}
+.box_icon:hover {
+    color: white;
+    background-color: #59ab6e;
+}
+.brand_section{
+    height: 70vh;
+    width: 100vw;
+    background-color: #e9eef5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20vh;
+}
+.our_Brands{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.our_Brands h1{
+    font-size: 2vw;
+}
+.our_Brands p{
+    width: 40%;
+    text-align: center;
+    font-size: 1.20vw;
+}
+.brand_icon{
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}
+.brand_icon div{
+    height: 6vw;
+    width: 6vw;
+}
+.brand_icon img{
+    filter: grayscale(100%);
+}
+.brand_icon img:hover{
+    filter: grayscale(0%);
+   
+}
+.footer_main {
+    width: 100vw;
+    height: 85vh;
+    background-color: #212934;
+    color: #dcdde1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.footer_main a {
+    color: #dcdde1;
+}
+
+.fotter {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    padding-top: 2vh;
+  
+}
+
+
+
+
+.first_fotter {
+    height: 50vh;
+    width: 20vw;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #59ab6e;
+}
+
+.Zay_shop {
+    font-size: 2vw;
+    color: #59ab6e;
+}
+
+.Second_fotter {
+    height: 50vh;
+    width: 20vw;
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.Second_fotter li {
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+}
+
+ul {
+    display: flex;
+    gap: 1.4vw;
+    flex-direction: column;
+}
+
+.thired_fotter li {
+    list-style: none
+}
+
+.thired_fotter {
+    height: 50vh;
+    width: 20vw;
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.Products {
+    font-size: 2vw;
+    color: white;
+
+}
+
+.FurtherInfo {
+    font-size: 2vw;
+    color: white;
+}
+
+.Feature_section {
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+   gap: 1vw;
+
+}
+
+.p1 {
+    display: flex;
+    gap: 1vw;
+    font-size: 1.3vw;
+}
+
+.p2 {
+    display: flex;
+    gap: 1vw;
+    font-size: 1.3vw;
+}
+
+.p3 {
+    display: flex;
+    gap: 1vw;
+    font-size: 1.3vw;
+}
+
+.Subscribe {
+    display: flex;
+    justify-content: center;
+    gap: 50vw;
+    
+}
+
+.Subscribe_icon {
+    border: 0.1vw solid gray;
+    height: 6vh;
+    width: 3vw;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.50vw;
+
+}
+
+.Subscribe_icon:hover {
+    background-color: white;
+    color: #000;
+}
+
+.Subscribe_icons {
+    display: flex;
+    gap: 1vw;
+}
+
+.email {
+    background-color: transparent;
+    border: none;
+    border: 0.1vw solid gray;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1vw;
+}
+
+button {
+    background-color: #59ab6e;
+    color: white;
+    border: none;
+    height: 5vh;
+    width: 7vw;
+    font-size: 1vw;
+}
+
+.Subscribess {
+    display: flex;
+    gap: 0vw;
+}
+
+.Copyright {
+    height: 9vh;
+    width: 100vw;
+    background-color: #1d242d;
+    display: flex;
+    align-items: center;
+    font-size: 1.30vw;
+    padding-left: 10vw;
+}
+.line{
+    width: 23vw;
+    border:  0.1vw solid #cfd6e1;
+}
+.line1{
+    width: 80vw;
+    border:  0.1vw solid #cfd6e1;
+    
+}
+@media screen and (max-width:1440px){
+    .second_header {
+        height: 10vh;
+        width: 100vw;
+    
+    }
+    .third_section{
+        height: 60vh;
+        width: 100vw;
+    }
+    .service_section{
+        width: 100vw;
+        height: 70vh;
+    }
+    .brand_section {
+        height: 50vh;
+        width: 100vw;
+    }
+    .footer_main {
+        width: 100vw;
+        height: 75vh;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+
+    .brand_section {
+        height: 45vh;
+        width: 100vw;
+        display: flex;
+        gap: 5vw;
+    }
+    .footer_main {
+        width: 100vw;
+        height: 80vh;
+    }
+    .Copyright{
+        height: 8vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .first_header {
+       display: none;
+        
+    }
+    .pages ul {
+        display: none;
+    
+    }
+    .menu{
+        display: block;
+        font-size: 3vw;
+    }
+    .zay{
+        font-size: 4vw;
+    }
+    .second_header{
+        height: 12vw;
+        display: flex;
+        justify-content: center;
+        gap: 40vw;
+    }
+    
+.second_icons {
+    display: none;
+   
+}
+.p_heading{
+    font-size: 4vw;
+}
+.p_last{
+    font-size: 2.50vw;
+}
+.service_section{
+    height: 130vh;
+}
+.service h1{
+   font-size: 5vw;
+}
+.service p{
+    font-size: 3vw;
+}
+.service_icon{
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+.box_icon{
+    width: 40vw;
+    height: 30vh;
+    
+    
+}
+.box_icon i{
+    font-size: 8vw;
+}
+.box_icon p{
+    font-size: 3vw;
+}
+.brand_section{
+    height: 70vh;
+    gap: 10vw;
+}
+.our_Brands h1{
+    font-size: 5vw;
+}
+.our_Brands p{
+    font-size: 3vw;
+    width: 80vw;
+}
+.brand_icon div{
+    height: 8vw;
+    width: 8vw;
+}
+.option_three{
+    font-size: 4vw;
+}
+.footer_main{
+    height: 90vh;
+    gap: 6vw;
+    
+}
+.Zay_shop{
+    font-size: 4vw;
+}
+.Products{
+    font-size: 4vw;
+}
+.FurtherInfo{
+    font-size: 4vw;
+}
+.p1{
+    font-size: 2.30vw;
+}
+.p2{
+    font-size: 2.30vw;
+}
+.p3{
+    font-size: 2.30vw;
+}
+.Second_fotter ul{
+    font-size: 2.30vw;
+}
+.thired_fotter{
+    font-size: 2.30vw;
+}
+.Subscribe{
+    gap: 30vw;
+}
+.Subscribe_icon{
+    width: 5vw;
+    font-size: 2.50vw;
+}
+.email{
+     width: 20vw;
+     font-size: 2vw;
+}
+button{
+    width: 10vw;
+    font-size: 1.50vw;
+}
+.Copyright{
+    height: 10vh;
+    font-size: 2.30vw;
+}
+}
+@media screen and (max-width:427px){
+    
+    
+    .zay{
+        font-size: 8vw;
+       
+    }
+    .second_header{
+        height: 20vw;
+        gap: 20vw;
+        
+    }
+    .menu{
+        font-size: 5vw;
+    }
+    .third_section{
+        height: 120vh; 
+        flex-direction: column;
+        
+       
+    }
+    .third_section img{
+        height: 80vw;
+        width: 80vw;
+        
+    }
+  
+    .p_heading{
+        font-size: 8vw;
+        
+       
+    }
+    .p_middle{
+        font-size: 5vw;
+        /* display: flex;
+        justify-content: center; */
+    }
+    
+    .service_section{
+        height: 180vh;
+    }
+    .service h1{
+        font-size: 10vw;
+    }
+    .service p{
+        font-size: 5vw;
+    }
+    .box_icon{
+        height: 30vh;
+        width: 80vw;
+    }
+    .box_icon i{
+        font-size: 12vw;
+    }
+    .box_icon p{
+        font-size: 5vw;
+    }
+    .brand_section{
+        height:60vh;
+    }
+    .our_Brands h1{
+        font-size: 10vw;
+    }
+    .our_Brands p{
+        font-size: 4vw;
+    }
+    .brand_icon img{
+        width: 10vw;
+    }
+     .footer_main{
+        height: 140vh;
+       
+     }
+     .fotter{
+        flex-direction: column;
+        width: 80vw;
+        gap: 10vw;
+    }
+   
+     .first_fotter div {
+        font-size: 6vw;
+        width: 80vw;
+    }
+    .first_fotter{
+        height: 20vh;
+    }
+    .first_fotter p{
+      font-size: 4vw;
+      width: 60vw;
+    }
+    .Second_fotter{
+        height: 35vh;
+    }
+    .Second_fotter li{
+        font-size: 4vw;
+        width: 50vw;
+    }
+    .thired_fotter{
+        height: 30vh;
+    }
+    .thired_fotter li{
+        font-size: 4vw;
+        width: 50vw;
+       
+    }
+    .FurtherInfo{
+        font-size: 6vw;
+        width: 40vw;
+    }
+    .Products{
+      font-size: 6vw;
+    }
+     .Subscribe{
+        flex-direction: column;
+        gap: 3vh;
+        width: 80vw;
+     }
+     .Subscribe_icons{
+        gap: 3vw;
+        
+     }
+     .Subscribe_icon{
+        height: 10vw;
+        width: 10vw;
+        font-size: 5vw;
+     }
+     
+     .line{
+        width: 80vw;
+     }
+     .email{
+        width: 40vw;
+        font-size: 3vw;
+     }
+     button{
+        width: 25vw;
+        font-size: 3vw;
+     }
+     .Copyright{
+       font-size: 3vw;
+       justify-content: start;
+     }
+     
+    
+}
+@media screen and (max-width:376px){
+   
+    .footer_main{
+       height: 130vh;
+    }
+   .Copyright{
+       height: 5vh;
+   }
+   
+}
+@media screen and (max-width:320px){
+   
+    .zay{
+        font-size: 8vw;
+    }
+    .menu{
+        font-size: 7vw;
+   
+    }
+    .footer_main{
+    height: 128vh;
+    } 
+    .Copyright{
+        height: 8vh;
+    }
+
+    
+}
